@@ -53,7 +53,7 @@ Feature: CMS.Video Component
     Then Captions become "invisible"
 
   # 8
-  # Disabled 11/26 due to flakiness in master
+  # Disabled 11/26 due to flakiness in master. 1
   Scenario: Open captions never become invisible
     Given I have created a Video component with subtitles
     And Make sure captions are open
