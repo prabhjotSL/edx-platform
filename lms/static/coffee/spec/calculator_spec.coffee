@@ -262,6 +262,13 @@ describe 'Calculator', ->
             shiftKey: false
           called: ['hideHint']
 
+        tab:
+          returnedValue: true
+          event:
+            keyCode: KEY.ESC
+            shiftKey: false
+          called: ['hideHint']
+
         alt:
           returnedValue: true
           event:

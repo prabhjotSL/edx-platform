@@ -143,6 +143,11 @@ class @Calculator
         # hide popup with hints
         @hideHint()
 
+      when @KEY.ESC
+        # hide popup with hints
+        @hideHint()
+        @hintButton.focus()
+
       when @KEY.LEFT, @KEY.UP
         if e.shiftKey
            # do nothing
